@@ -1,0 +1,38 @@
+.wrapper {
+    text-align: center;
+}
+
+.wrapper div:first-child {
+    max-width: fit-content;
+    margin: auto;
+    padding: .2rem .6rem;
+}
+
+.form {
+    text-align: right;
+}
+
+.form input {
+    margin-bottom: .4rem;
+}
+
+button { 
+    // border-radius: 4px;
+    box-shadow: 0;
+    border: 0;
+    background-image: linear-gradient(white, #f1f1f188);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    outline: 0;
+    background-image: linear-gradient(white, #d8d8d8cc);
+
+}
+
+button:focus{
+    outline: 0;
+}
