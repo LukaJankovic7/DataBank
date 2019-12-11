@@ -3,11 +3,12 @@ import { connect } from 'react-redux'
 import { Link } from 'gatsby'
 import HeaderStyles from './styles/header.module.scss'
 import { signOut } from '../state/actions/user'
+import Logo from '../assets/logo.png'
 
 const Header = ({user, signOut}) => {
     return (
         <div className={HeaderStyles.container}>
-            <p>There is going to be a logo here</p>
+            <p><img id={HeaderStyles.logo} src={Logo} /></p>
             {
                 user==='default' ? (
                     <p>Guest</p>

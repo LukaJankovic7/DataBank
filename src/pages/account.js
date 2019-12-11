@@ -15,12 +15,6 @@ const Account = ({user}) => {
                         text {
                             json
                         }
-                        media{
-                            file{
-                                url
-                                fileName
-                            }
-                        }
                         slug
                         owner
                     }

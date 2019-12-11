@@ -47,8 +47,8 @@ const Login = ({checkUser, loginSuccess, user}) => {
                             <h2>Log in </h2>
                             {/* { loginSuccess ? (null):(<div><p>Wrong info</p><br/></div>)} */}
                             <div className={LoginStyles.form}>
-                                Username: <input placeholder="johnDoe" id="username" /><br/>
-                                Password: <input type="password" id="password" onKeyPress={checkKeyPress}/><br/>    
+                                Username: <input placeholder="lukaJankovic" id="username" /><br/>
+                                Password: <input placeholder="password" type="password" id="password" onKeyPress={checkKeyPress}/><br/>    
                             </div>
                             <button onClick={checkLogin}>Log in</button>
                         </div>

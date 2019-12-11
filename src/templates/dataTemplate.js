@@ -13,18 +13,19 @@ export const query = graphql`
             text {
                 json
             }
-            media{
-                file{
-                    url
-                    fileName
-                }
-            }
+            
             owner
             date(formatString:"MMMM DD, YYYY")
         }
     }
 `
-
+//to get media:
+// media{
+//     file{
+//         url
+//         fileName
+//     }
+// } 
 
 const DataTemplate = ({data: {contentfulData: {title, text, media, owner, date}}}) => { 
     return (
